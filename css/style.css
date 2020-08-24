@@ -1,8 +1,5 @@
-* {
-  /* border: 1px solid red; */
-}
 
-.links{
+.links {
   text-decoration: none;
   color: #08c;
 }
@@ -22,7 +19,8 @@ li {
 .Hero {
   background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-repeat: no-repeat;
-  height: 100vh;
+  max-width: 100vw;
+  min-height: 100vh;
   background-size: cover;
   background-position: 0 -700px;
 }
@@ -61,7 +59,7 @@ nav ul li {
 
 .second_img {
   object-fit: none;
-	object-position: 10px 10px;
+  object-position: 10px 10px;
 }
 
 .last_img {
@@ -119,7 +117,7 @@ span {
 }
 
 .hoverclick:hover {
-  background-color: rgba(0,0,0,0.3)
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .search {
@@ -177,7 +175,6 @@ footer {
   display: flex;
   justify-content: space-around;
   width: 70%;
-
 }
 
 .main_footer ul {
@@ -186,7 +183,7 @@ footer {
 
 .footer_lower {
   display: flex;
-  justify-content: left ;
+  justify-content: left;
   width: 70%;
   margin-left: 160px;
 }
@@ -200,12 +197,11 @@ footer {
   border-right: 1px solid #6e6e6e;
 }
 
-
 .last img {
   width: 25px;
   height: 25px;
 }
 
-.main_footer ul li:last-child{
-  border-style: none
+.main_footer ul li:last-child {
+  border-style: none;
 }
