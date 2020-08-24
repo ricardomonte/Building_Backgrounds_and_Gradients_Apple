@@ -2,9 +2,11 @@
   text-decoration: none;
   color: #08c;
 }
+
 li {
   list-style-type: none;
 }
+
 .bottompics {
   z-index: 10;
   width: 350px;
@@ -12,6 +14,7 @@ li {
   background-repeat: no-repeat;
   display: block;
 }
+
 .Hero {
   background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-repeat: no-repeat;
@@ -20,17 +23,20 @@ li {
   background-size: cover;
   background-position: 0 -700px;
 }
+
 h2 {
   display: none;
 }
+
 header {
   margin: auto;
   width: 50%;
   padding-top: 50px;
 }
+
 nav ul {
   background: #707070;
-  background-image: linear-gradient(#5E5E5E 50%, #707070 50%);
+  background-image: linear-gradient(#5e5e5e 50%, #707070 50%);
   height: 36px;
   width: 980px;
   border-radius: 4px;
@@ -39,130 +45,162 @@ nav ul {
   z-index: -1;
   margin-bottom: 100px;
 }
+
 nav ul li {
   width: 100px;
   margin-left: -40px;
   border-right: 1px solid gray;
 }
+
 .img_text {
   margin-top: 50px;
 }
+
 .second_img {
   object-fit: none;
   object-position: 10px 10px;
 }
+
 .last_img {
   width: 100%;
   object-fit: none;
 }
+
 .last_img_box {
   margin-left: 18%;
   margin-right: 14%;
 }
+
 .last_img:hover {
   border-bottom: 2px solid white;
 }
+
 span {
   display: block;
-  text-indent: -999999px;
+  text-indent: -999998px;
   width: 100px;
   height: 30px;
 }
+
 .logo1 {
   background-image: url(https://web.archive.org/web/20140301005559im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
   background-position: -30px 2px;
 }
+
 .log2 {
   background-position: -30px -28px;
 }
+
 .log3 {
   background-position: -30px -58px;
 }
+
 .log4 {
   background-position: -30px -88px;
 }
+
 .log5 {
   background-position: -30px -118px;
 }
+
 .log6 {
   background-position: -30px -148px;
 }
+
 .log7 {
   background-position: -30px -178px;
 }
+
 .log8 {
   background-position: -30px -208px;
 }
+
 .hoverclick:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
 .search {
   width: 150px;
   border-style: none;
 }
+
 .search input {
   width: 80%;
   margin-top: 8px;
   height: 15px;
   border-radius: 10px;
-  background-image: linear-gradient(#5E5E5E 50%, #707070 50%);
+  background-image: linear-gradient(#5e5e5e 50%, #707070 50%);
   padding-left: 15%;
 }
+
 .fa-search {
   margin-left: -145px;
   color: white;
 }
+
 .phones {
   display: flex;
   margin-top: 200px;
   justify-content: center;
   margin-right: 2px;
 }
+
 .phone1 {
   background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
 }
+
 .phone2 {
   background-image: url(https://web.archive.org/web/20140301004350im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
 }
+
 .phone3 {
   background-image: url(https://web.archive.org/web/20140301004351im_/http://images.apple.com/home/images/promo_30_years.jpg);
 }
+
 .phone4 {
   background-image: url(https://web.archive.org/web/20140301004352im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
 }
+
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   font-size: 0.75rem;
-  color: #5E5E5E;
+  color: #5e5e5e;
 }
+
 .main_footer {
   display: flex;
   justify-content: space-around;
   width: 70%;
 }
+
 .main_footer ul {
   display: flex;
 }
+
 .footer_lower {
   display: flex;
   justify-content: left;
   width: 70%;
   margin-left: 160px;
 }
+
 .links:hover {
   text-decoration: underline;
 }
+
 .main_footer ul li {
   padding: 0 5px;
-  border-right: 1px solid #6E6E6E;
+  border-right: 1px solid #6e6e6e;
 }
+
 .last img {
   width: 25px;
   height: 25px;
 }
+
 .main_footer ul li:last-child {
   border-style: none;
 }
