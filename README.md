@@ -15,7 +15,7 @@ The third project for microverse, replicate this article from the New York Times
 
 ## Live Demo
 
-[Live Demo Link](https://nexch.github.io/-Positioning_and_Floating-Elements/index.html)
+[Live Demo Link](https://ricardomonte.github.io/Building_Backgrounds_and_Gradients_Apple/. )
 
 
 ## Getting Started
@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 Having a computer and git working.
 ### Setup
-git clone https://github.com/Nexch/-Positioning_and_Floating-Elements.git
+git clone https://github.com/ricardomonte/Building_Backgrounds_and_Gradients_Apple.git
 ### Usage
 Open it in your favorite browser
 
