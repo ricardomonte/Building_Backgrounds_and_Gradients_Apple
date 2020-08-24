@@ -12,6 +12,14 @@
   align-items: center;
 }
 
+.d-block {
+  display: block;
+}
+
+.j-c-s-b {
+  justify-content: space-between;
+}
+
 li {
   list-style-type: none;
   padding: 0;
@@ -22,7 +30,6 @@ li {
   width: 350px;
   height: 200px;
   background-repeat: no-repeat;
-  display: block;
 }
 
 .Hero {
@@ -48,7 +55,6 @@ nav ul {
   height: 36px;
   width: 980px;
   border-radius: 4px;
-  justify-content: space-between;
   z-index: -1;
   margin-bottom: 100px;
 }
@@ -81,7 +87,6 @@ nav ul li {
 }
 
 span {
-  display: block;
   text-indent: -999998px;
   width: 100px;
   height: 30px;
@@ -147,6 +152,8 @@ span {
   margin-top: 200px;
   justify-content: center;
   margin-right: 2px;
+  width: 100%;
+  padding-left: 0;
 }
 
 .phone1 {
@@ -172,7 +179,6 @@ footer {
 }
 
 .main_footer {
-  justify-content: space-between;
   width: 70%;
 }
 
