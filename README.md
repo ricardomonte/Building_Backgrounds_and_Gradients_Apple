@@ -6,7 +6,7 @@
 
 ![screenshot](./photos/Screenshot.jpg)
 
-The third project for microverse, replicate this article from the New York Times: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
+The fourth project for microverse, replicating an Apple page: https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 ## Built With
 
@@ -35,13 +35,13 @@ Open it in your favorite browser
 
 ## Authors
 
-👤 **Author1**
+👤 **Ricardo Montenegro**
 
 - Github: [@ricardomonte](https://github.com/ricardomonte)
 - Twitter: [@ramnkco](https://twitter.com/ramnkco)
 - LinkedIn: [Ricardo Montenegro](https://www.linkedin.com/in/ricardo-antonio-montenegro-nu%C3%B1ez-87a74944/)
 
-👤 **Author2**
+👤 **Mauricio Tabilo**
 
 - Github: [@Nexch](https://github.com/Nexch)
 - Twitter: [@@MfinchT](https://twitter.com/MfinchT)
