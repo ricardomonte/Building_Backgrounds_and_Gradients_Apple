@@ -2,6 +2,11 @@
   /* border: 1px solid red; */
 }
 
+.links{
+  text-decoration: none;
+  color: #08c;
+}
+
 li {
   list-style-type: none;
 }
@@ -17,10 +22,13 @@ li {
 .Hero {
   background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-repeat: no-repeat;
-  width: 100vw;
   height: 100vh;
-  background-size: 100vw;
-  background-position: 0 -450px
+  background-size: cover;
+  background-position: 0 -700px;
+}
+
+h2 {
+  display: none;
 }
 
 header {
@@ -125,10 +133,11 @@ span {
   height: 15px;
   border-radius: 10px;
   background-image: linear-gradient(#5e5e5e 50%, #707070 50%);
+  padding-left: 10%;
 }
 
 .fa-search {
-  margin-left: -120px;
+  margin-left: -135px;
 }
 
 .phones {
@@ -159,10 +168,14 @@ footer {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  font-size: 0.75rem;
+  color: #5e5e5e;
 }
 
 .main_footer {
   display: flex;
+  justify-content: space-around;
+  width: 70%;
 
 }
 
@@ -171,6 +184,17 @@ footer {
 }
 
 .footer_lower {
-  text-align: left;
-  width: 63.5%;
+  display: flex;
+  justify-content: left ;
+  width: 70%;
+  margin-left: 160px;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.main_footer ul li {
+  padding: 0 5px;
+  border-right: 1px solid #6e6e6e;
 }
