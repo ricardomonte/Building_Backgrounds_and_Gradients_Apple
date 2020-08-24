@@ -133,11 +133,12 @@ span {
   height: 15px;
   border-radius: 10px;
   background-image: linear-gradient(#5e5e5e 50%, #707070 50%);
-  padding-left: 10%;
+  padding-left: 15%;
 }
 
 .fa-search {
-  margin-left: -135px;
+  margin-left: -145px;
+  color: white;
 }
 
 .phones {
@@ -197,4 +198,14 @@ footer {
 .main_footer ul li {
   padding: 0 5px;
   border-right: 1px solid #6e6e6e;
+}
+
+
+.last img {
+  width: 25px;
+  height: 25px;
+}
+
+.main_footer ul li:last-child{
+  border-style: none
 }
