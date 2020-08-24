@@ -84,7 +84,7 @@ span {
 }
 
 .logo1 {
-  background-image: url("https://github.com/ricardomonte/Building_Backgrounds_and_Gradients_Apple/blob/feature/photos/nav_text.png");
+  background-image: url("..photos/nav_text");
   background-position: -30px 2px;
 }
 
