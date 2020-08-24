@@ -1,18 +1,32 @@
 * {
   /* border: 1px solid red; */
 }
+
+li {
+  list-style-type: none;
+}
+
+.bottompics {
+  z-index: 10;
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+  display: block;
+}
+
 .Hero {
   background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   background-size: 100vw;
-  background-position: 0 -450px;
+  background-position: 0 -450px
 }
 
 header {
   margin: auto;
   width: 50%;
+  padding-top: 50px;
 }
 
 nav ul {
@@ -24,12 +38,13 @@ nav ul {
   display: flex;
   justify-content: space-between;
   z-index: -1;
+  margin-bottom: 100px;
 }
 
-nav ul li{
-  list-style-type: none;
+nav ul li {
   width: 100px;
   margin-left: -40px;
+  border-right: 1px solid gray;
 }
 
 .img_text {
@@ -63,11 +78,8 @@ span {
 }
 
 .logo1 {
-
   background-image: url("/photos/nav_text.png");
   background-position: -30px 2px;
-
-  /* z-index: 100; */
 }
 
 .log2 {
@@ -102,8 +114,63 @@ span {
   background-color: rgba(0,0,0,0.3)
 }
 
+.search {
+  width: 150px;
+  border-style: none;
+}
+
 .search input {
   width: 80%;
-  margin-top: 2.5px;
-  height: 20px;
+  margin-top: 8px;
+  height: 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(#5e5e5e 50%, #707070 50%);
+}
+
+.fa-search {
+  margin-left: -120px;
+}
+
+.phones {
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+  margin-right: 2px;
+}
+
+.phone1 {
+  background-image: url("/photos/phone1.jpg");
+}
+
+.phone2 {
+  background-image: url("/photos/phone2.jpg");
+}
+
+.phone3 {
+  background-image: url("/photos/phone3.jpg");
+}
+
+.phone4 {
+  background-image: url("/photos/phone4.jpg");
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.main_footer {
+  display: flex;
+
+}
+
+.main_footer ul {
+  display: flex;
+}
+
+.footer_lower {
+  text-align: left;
+  width: 63.5%;
 }
