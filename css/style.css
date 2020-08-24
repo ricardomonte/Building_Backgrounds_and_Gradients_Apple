@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .Hero {
   background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
@@ -14,20 +14,22 @@ header {
   margin: auto;
   width: 50%;
 }
-nav ul li{
-  list-style-type: none;
-  width: 100px;
-  margin-left: -40px;
-}
 
 nav ul {
   background: #707070;
+  background-image: linear-gradient(#5e5e5e 50%, #707070 50%);
   height: 36px;
   width: 980px;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
   z-index: -1;
+}
+
+nav ul li{
+  list-style-type: none;
+  width: 100px;
+  margin-left: -40px;
 }
 
 .img_text {
@@ -53,8 +55,55 @@ nav ul {
   border-bottom: 2px solid white;
 }
 
+span {
+  display: block;
+  text-indent: -999999px;
+  width: 100px;
+  height: 30px;
+}
+
 .logo1 {
+
   background-image: url("/photos/nav_text.png");
-  background-position: -25px 5px;
-  z-index: 100;
+  background-position: -30px 2px;
+
+  /* z-index: 100; */
+}
+
+.log2 {
+  background-position: -30px -28px;
+}
+
+.log3 {
+  background-position: -30px -58px;
+}
+
+.log4 {
+  background-position: -30px -88px;
+}
+
+.log5 {
+  background-position: -30px -118px;
+}
+
+.log6 {
+  background-position: -30px -148px;
+}
+
+.log7 {
+  background-position: -30px -178px;
+}
+
+.log8 {
+  background-position: -30px -208px;
+}
+
+.hoverclick:hover {
+  background-color: rgba(0,0,0,0.3)
+}
+
+.search input {
+  width: 80%;
+  margin-top: 2.5px;
+  height: 20px;
 }
