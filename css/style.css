@@ -84,7 +84,7 @@ span {
 }
 
 .logo1 {
-  background-image: url("/photos/nav_text.png");
+  background-image: url("../photos/nav_text.png");
   background-position: -30px 2px;
 }
 
